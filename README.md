@@ -1,8 +1,8 @@
-# MY ANNOTATIONS
+# MY ANNOTATIONS 🔥🔥🚀
 
 This project is made with react, mysql, typescript, express, sass, ....
 
-## Code
+## Code 👨‍💻
 
 Primeiro vou começar instalando e configurando o backend
 
@@ -27,7 +27,7 @@ Primeiro vou começar instalando e configurando o backend
     Para criar a conexão com o banco de dados
     npm i mysql2
 
-    Instalando bibliotecas de dependência de desenvolvimento, pois só serão usadas para desenvolver o projeto. Ou seja, essas bibliotecas não são instaladas no servidor.
+Instalando bibliotecas de dependência de desenvolvimento, pois só serão usadas para desenvolver o projeto. Ou seja, essas bibliotecas não são instaladas no servidor.
 
     Para criar os tipos em typescript
     npm i -D @types/cors @types/express
@@ -65,10 +65,43 @@ Primeiro vou começar instalando e configurando o backend
         ]
     }
 
-Endpoints: Backend
+### Endpoints 🔴
+
+Users
 
     GET   => /all-users - ver todos os usuários
     POST  => /login - login
     POST  => /add-user - criar usuário
     PUT   => /modify-user - modificar dado do usuário
     PATCH => /modify-user-passoword - modificar apenas a senha
+
+Tasks
+
+    POST  => /all-tasks - ver todas as anotações do usuário
+    POST  => /add-task - adicionar nova anotação
+    PUT   => /modify-task - modificar a tarefa
+
+Tables
+
+    GET   => /create-table-users - criar tabela de usuário
+    GET   => /create-table-tasks - criar tabela de tarefas
+
+#
+
+## 😅😅
+
+Durante o desenvolvimento, achei melhor trocar as bibliotecas ts-node-dev e nodemon por tsx e tsup. Estava a perder tempo, pois precisava compilar de typescript para javascript para então executar.
+
+    npm i -D tsx tsup
+    npm remover nodemon ts-node-dev
+
+    "scripts": {
+        "start": "tsx ./src/server.ts",
+        "dev": "tsx watch ./src/server.ts",
+        "build": "tsup ./src"
+    },
+
+#
+
+> Os endpoints foram testados usando o programa Insomnia.
+> ![Insomnia](./screenshots/insomnia.PNG);
