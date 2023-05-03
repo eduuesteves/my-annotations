@@ -7,9 +7,11 @@ This project is made with react, mysql, typescript, express, sass, ....
 Primeiro vou começar instalando e configurando o backend
 
     mkdir my-annotations
+    |
     cd my-annotations
-
+        |
         mkdir server
+        |
         cd server
 
     Para criar o arquivo packege.json
@@ -86,13 +88,12 @@ Tables
     GET   => /create-table-users - criar tabela de usuário
     GET   => /create-table-tasks - criar tabela de tarefas
 
-#
-
 ## 😅😅
 
 Durante o desenvolvimento, achei melhor trocar as bibliotecas ts-node-dev e nodemon por tsx e tsup. Estava a perder tempo, pois precisava compilar de typescript para javascript para então executar.
 
     npm i -D tsx tsup
+    |
     npm remover nodemon ts-node-dev
 
     "scripts": {
@@ -105,3 +106,28 @@ Durante o desenvolvimento, achei melhor trocar as bibliotecas ts-node-dev e node
 
 > Os endpoints foram testados usando o programa Insomnia.
 > ![Insomnia](./screenshots/insomnia.PNG);
+
+Agora vamos partir para o frontend
+
+- Lenbrando que se você estiver na subpasta server...
+
+  cd ..
+
+Vamos criar o front usando vite, pois o mesmo é muito rápido e performático para o desenvolvimento com react. E não queremos perder tempo, né?
+
+    npm create vite@latest
+    |
+    project-name: frontend
+    |
+    cd frontend
+    |
+    npm install
+
+    Para instalar o pré-processador SASS
+    npm i sass
+
+    Para instalar o controlador de rota (troca de tela)
+    npm i react-router-dom
+
+    Para instalar ícones
+    npm i phosphor-react
