@@ -2,7 +2,7 @@
 
 This project is made with react, mysql, typescript, express, sass, ....
 
-Code
+## Code
 
 Primeiro vou começar instalando e configurando o backend
 
@@ -67,6 +67,8 @@ Primeiro vou começar instalando e configurando o backend
 
 Endpoints: Backend
 
-    / - login
-    /add-user - criar usuário
-    /modify-user - modificar dado do usuário
+    GET   => /all-users - ver todos os usuários
+    POST  => /login - login
+    POST  => /add-user - criar usuário
+    PUT   => /modify-user - modificar dado do usuário
+    PATCH => /modify-user-passoword - modificar apenas a senha
