@@ -149,3 +149,17 @@ Esqueci de mencionar, mas utilizei o Figma
 ## Dividindo as tarefas
 
 Para me auxiliar nos processos de desenvolvimento do frontend (que serão bastantes), vou listá-los abaixo e conforme for terminando as tarefas, vou confirmando.
+
+Irei adicionando novas tarefas conforme for terminando as outras ou ao sentir necessidade.
+
+- [x] Organizando as rotas
+- [ ] Layouts das Aplicação
+  - [x] Header
+  - [x] Footer
+  - [x] Login
+  - [ ] Add User
+  - [ ] Add Annotation
+  - [ ] Edit User
+  - [ ] Edit Annotation
+  - [ ] Menu
+  - [ ] Profile
