@@ -88,7 +88,9 @@ Tables
     GET   => /create-table-users - criar tabela de usuário
     GET   => /create-table-tasks - criar tabela de tarefas
 
-## 😅😅
+#
+
+😅😅
 
 Durante o desenvolvimento, achei melhor trocar as bibliotecas ts-node-dev e nodemon por tsx e tsup. Estava a perder tempo, pois precisava compilar de typescript para javascript para então executar.
 
@@ -105,11 +107,11 @@ Durante o desenvolvimento, achei melhor trocar as bibliotecas ts-node-dev e node
 #
 
 > Os endpoints foram testados usando o programa Insomnia.
-> ![Insomnia](./screenshots/insomnia.PNG);
+> ![Insomnia](./screenshots/insomnia.PNG)
 
 Agora vamos partir para o frontend
 
-- Lenbrando que se você estiver na subpasta server...
+- Lembrando que se você estiver na subpasta server...
 
   cd ..
 
@@ -131,3 +133,19 @@ Vamos criar o front usando vite, pois o mesmo é muito rápido e performático p
 
     Para instalar ícones
     npm i phosphor-react
+
+## Layout
+
+Desenvolvi o primeiro esboço de como será o layout da aplicação. Conforme a imagem abaixo:
+
+![Figma](./screenshots/figma.PNG)
+
+Os telas ainda estão em desenvolvimento podendo mudar, pois a aplicação é baseada na experiência do usuário.
+
+Caso queira ver com mais detalhes, basta clicar [aqui](https://www.figma.com/file/8Kd9u0RBY90LManQvgUgWj/Annotations?type=design&node-id=0-1&t=HxUz0y7gD7RmYglU-0)
+
+Esqueci de mencionar, mas utilizei o Figma
+
+## Dividindo as tarefas
+
+Para me auxiliar nos processos de desenvolvimento do frontend (que serão bastantes), vou listá-los abaixo e conforme for terminando as tarefas, vou confirmando.
